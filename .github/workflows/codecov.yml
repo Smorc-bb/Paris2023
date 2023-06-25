@@ -34,7 +34,7 @@ jobs:
       # Enable caching of the 'librocksdb-sys' crate by additionally caching the
       # 'librocksdb-sys' src directory which is managed by cargo
       - name: Install grcov, and cache the binary
-        uses: baptiste0928/cargo-install@v1
+        uses: baptiste0928/cargo-install@v2
         with:
           crate: grcov
           locked: true
