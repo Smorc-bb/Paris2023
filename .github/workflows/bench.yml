@@ -51,7 +51,7 @@ jobs:
     #   with:
     #     path: ~/.cargo/registry/src/**/librocksdb-sys-*
     - name: Install huniq, and cache the binary
-      uses: baptiste0928/cargo-install@v1
+      uses: baptiste0928/cargo-install@v2
       with:
         crate: huniq
         locked: true
