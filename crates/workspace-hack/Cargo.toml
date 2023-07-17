@@ -162,7 +162,7 @@ executor = { git = "https://github.com/MystenLabs/narwhal", rev = "24353f2f1c5df
 eyre = { version = "0.6", features = ["auto-install", "track-caller"] }
 fail = { version = "0.4", default-features = false }
 fastrand = { version = "1", default-features = false }
-fd-lock = { version = "3", default-features = false }
+fd-lock = { version = "4", default-features = false }
 fdlimit = { version = "0.2", default-features = false }
 ff = { version = "0.12", default-features = false }
 fiat-crypto = { version = "0.1", features = ["std"] }
@@ -756,7 +756,7 @@ executor = { git = "https://github.com/MystenLabs/narwhal", rev = "24353f2f1c5df
 eyre = { version = "0.6", features = ["auto-install", "track-caller"] }
 fail = { version = "0.4", default-features = false }
 fastrand = { version = "1", default-features = false }
-fd-lock = { version = "3", default-features = false }
+fd-lock = { version = "4", default-features = false }
 fdlimit = { version = "0.2", default-features = false }
 ff = { version = "0.12", default-features = false }
 fiat-crypto = { version = "0.1", features = ["std"] }
