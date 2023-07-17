@@ -30,7 +30,7 @@ ark-ed-on-cp6-782 = { version = "0.3", default-features = false }
 ark-ff = { version = "0.3", features = ["parallel", "rayon", "std"] }
 ark-relations = { version = "0.3", default-features = false, features = ["std", "tracing-subscriber"] }
 ark-serialize = { version = "0.3", features = ["ark-serialize-derive", "derive", "std"] }
-ark-snark = { version = "0.3", default-features = false }
+ark-snark = { version = "0.4", default-features = false }
 ark-std = { version = "0.3", features = ["parallel", "rayon", "std"] }
 arrayref = { version = "0.3", default-features = false }
 arrayvec-d8f496e17d97b5cb = { package = "arrayvec", version = "0.5", features = ["array-sizes-33-128", "std"] }
@@ -599,7 +599,7 @@ ark-ff-macros = { version = "0.3", default-features = false }
 ark-relations = { version = "0.3", default-features = false, features = ["std", "tracing-subscriber"] }
 ark-serialize = { version = "0.3", features = ["ark-serialize-derive", "derive", "std"] }
 ark-serialize-derive = { version = "0.3", default-features = false }
-ark-snark = { version = "0.3", default-features = false }
+ark-snark = { version = "0.4", default-features = false }
 ark-std = { version = "0.3", features = ["parallel", "rayon", "std"] }
 arrayref = { version = "0.3", default-features = false }
 arrayvec-d8f496e17d97b5cb = { package = "arrayvec", version = "0.5", features = ["array-sizes-33-128", "std"] }
